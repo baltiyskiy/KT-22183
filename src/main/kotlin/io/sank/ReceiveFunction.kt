@@ -3,7 +3,6 @@ import scala.runtime.BoxedUnit
 
 class ReceiveFunction(private val msgProcessor: (Any) -> Unit?) : PartialFunction<Any, BoxedUnit> {
   override fun apply(v1: Any?): BoxedUnit {
-    msgProcessor(v1!!)
     return BoxedUnit.UNIT
   }
 
