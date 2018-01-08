@@ -1,0 +1,15 @@
+target
+*.~*
+*~
+*.iml
+*.ipr
+*.iws
+.idea
+structure-plugin/*.log
+.DS_Store
+.sass-cache
+.clover
+node_modules
+**/src/main/resources/ts/**/*.js
+**/src/main/resources/ts/**/*.js.map
+**/src/test/javascript/gen
